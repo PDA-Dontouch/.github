@@ -171,4 +171,152 @@ Frontend:
 Backend:
 ```
 
+├─energy-server
+│      └─src
+│      ├─main
+│      │  ├─java
+│      │  │  └─donTouch
+│      │  │      └─energy_server
+│      │  │          ├─energy
+│      │  │          │  ├─domain
+│      │  │          │  ├─dto
+│      │  │          │  └─service
+│      │  │          ├─kafka
+│      │  │          │  ├─dto
+│      │  │          │  └─service
+│      │  │          └─utils
+│      │  └─resources
+│      └─test
+│          └─java
+│              └─donTouch
+│                  └─energy_server
+├─estate-server
+│      └─src
+│      ├─main
+│      │  ├─java
+│      │  │  └─donTouch
+│      │  │      └─estate_server
+│      │  │          ├─estate
+│      │  │          │  ├─domain
+│      │  │          │  ├─dto
+│      │  │          │  ├─service
+│      │  │          │  └─utils
+│      │  │          ├─kafka
+│      │  │          │  ├─dto
+│      │  │          │  └─service
+│      │  │          └─utils
+│      │  └─resources
+│      └─test
+│          └─java
+│              └─donTouch
+│                  └─estate_server
+├─order-server
+│      └─src
+│      ├─main
+│      │  ├─java
+│      │  │  └─donTouch
+│      │  │      └─order_server
+│      │  │          ├─bankAccount
+│      │  │          │  ├─domain
+│      │  │          │  ├─dto
+│      │  │          │  └─service
+│      │  │          ├─holding
+│      │  │          │  ├─domain
+│      │  │          │  ├─dto
+│      │  │          │  └─service
+│      │  │          ├─kafka
+│      │  │          │  ├─dto
+│      │  │          │  └─service
+│      │  │          ├─log
+│      │  │          │  ├─domain
+│      │  │          │  ├─dto
+│      │  │          │  └─service
+│      │  │          └─utils
+│      │  └─resources
+│      └─test
+│          └─java
+│              └─donTouch
+│                  └─order_server
+├─src
+│  ├─main
+│  │  └─java
+│  │      └─donTouch
+│  │          └─backend_server
+│  └─test
+│      └─java
+│          └─donTouch
+│              └─backend_server
+├─stock-server
+│  └─src
+│      ├─main
+│      │  ├─java
+│      │  │  └─donTouch
+│      │  │      └─stock_server
+│      │  │          ├─dividend
+│      │  │          │  ├─domain
+│      │  │          │  ├─dto
+│      │  │          │  └─service
+│      │  │          ├─kafka
+│      │  │          │  ├─dto
+│      │  │          │  └─service
+│      │  │          ├─krStock
+│      │  │          │  ├─domain
+│      │  │          │  ├─dto
+│      │  │          │  └─service
+│      │  │          ├─stock
+│      │  │          │  ├─domain
+│      │  │          │  ├─dto
+│      │  │          │  └─service
+│      │  │          ├─usStock
+│      │  │          │  ├─domain
+│      │  │          │  ├─dto
+│      │  │          │  └─service
+│      │  │          └─web
+│      │  │              └─dto
+│      │  └─resources
+│      └─test
+│          └─java
+│              └─donTouch
+│                  └─stock_server
+├─user-server
+│  └─src
+│      ├─main
+│      │  ├─java
+│      │  │  └─donTouch
+│      │  │      └─user_server
+│      │  │          ├─kafka
+│      │  │          │  ├─dto
+│      │  │          │  └─service
+│      │  │          ├─like
+│      │  │          │  ├─domain
+│      │  │          │  ├─dto
+│      │  │          │  └─service
+│      │  │          ├─oauth
+│      │  │          │  ├─config
+│      │  │          │  ├─domain
+│      │  │          │  ├─dto
+│      │  │          │  └─service
+│      │  │          ├─user
+│      │  │          │  ├─domain
+│      │  │          │  ├─dto
+│      │  │          │  ├─service
+│      │  │          │  └─utils
+│      │  │          ├─userEnergy
+│      │  │          │  ├─domain
+│      │  │          │  ├─dto
+│      │  │          │  └─service
+│      │  │          ├─userEstate
+│      │  │          │  ├─domain
+│      │  │          │  ├─dto
+│      │  │          │  └─service
+│      │  │          └─userStock
+│      │  │              ├─domain
+│      │  │              ├─dto
+│      │  │              └─service
+│      │  └─resources
+│      └─test
+│          └─java
+│              └─donTouch
+│                  └─user_server
+
 ```
