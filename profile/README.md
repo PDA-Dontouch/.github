@@ -126,3 +126,49 @@ MSA 환경 구축을 위해 서비스의 단위별로 DB를 분리하였습니�
 ### 해결 방법
 
 # Project Structure
+
+Frontend:
+```
+├─api
+├─assets
+│  ├─chart
+│  └─footer
+├─components
+│  ├─Calendar
+│  ├─Chatbot
+│  ├─common
+│  │  ├─Modal
+│  │  ├─Product
+│  │  │  └─Detail
+│  │  └─Stock
+│  ├─Energy
+│  ├─Estates
+│  ├─Login
+│  ├─Main
+│  ├─Skeleton
+│  ├─Stock
+│  │  ├─individual
+│  │  └─trading
+│  └─StockTest
+├─hooks
+├─pages
+│  ├─Energy
+│  ├─Estates
+│  ├─Login
+│  ├─Main
+│  └─Stock
+├─store
+│  ├─reducers
+│  │  ├─auth
+│  │  ├─energy
+│  │  ├─estates
+│  │  └─stocks
+│  └─webSocket
+├─types
+└─utils
+```
+
+Backend:
+```
+
+```
